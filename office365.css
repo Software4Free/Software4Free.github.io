@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Poppins|Roboto+Slab|Orbitron|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	font-family: 'Open Sans', sans-serif;
+}
+.sidebar {
+	position: absolute;
+	display: table;
+	width: 250px;
+	height: 100%;	
+	background: #333;
+	color: #fff;
+	outline: 1px solid #2a2a2a;
+}
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.sidebar h2 {
+	text-align: center;
+	margin: 0;
+	background: #2a2a2a;
+	padding: 10px;
+}
+.sidebar li {
+	border: 1px solid #2a2a2a;
+	transition: all 0.3s;
+}
+.sidebar li:hover {
+	background: #444;
+	border-left: 5px solid #eee;	
+}
+.sidebar a {
+	display: block;
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+}
+.contenido {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	padding: 30px;
+	transition: all 0.3s;
+	box-sizing: border-box;
+	background: url(https://images4.alphacoders.com/720/thumb-1920-720499.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+.menu-bar {
+	cursor: pointer;
+}
+.abrir {
+	transform: translateX(250px);
+}
+ul.socialIcons {
+  padding: 0;
+  text-align: center;
+}
+
+.socialIcons li {
+  background-color: yellow;
+  list-style: none;
+  display: inline-block;
+  margin: 4px;
+  border-radius: 2em;
+  overflow: hidden;
+}
+
+.socialIcons li a {
+  display: block;
+  padding: 0.5em;
+  min-width: 1.28571429em;
+  max-width: 1.28571429em;
+  height: 1.28571429em;
+  white-space: nowrap;
+  line-height: 1.5em; /*it's working only when you write text with icon*/
+  transition: 0.5s;
+  text-decoration: none;
+  font-family: arial;
+  color: #fff;
+}
+
+.socialIcons li i {
+  margin-right: 0.5em;
+}
+
+.socialIcons li:hover a {
+  max-width: 400px;
+  padding-right: 1em;
+}
+
+.socialIcons .facebook {
+  background-color: #3b5998;
+  box-shadow: 0 0 16px #3b5998;
+}
+.socialIcons .pinterest {
+  background-color: #c92228;
+  box-shadow: 0 0 16px #c92228;
+}
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(https://images4.alphacoders.com/720/thumb-1920-720499.jpg) no-repeat 50% 50%;
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.container{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+.image{
+	display: block;
+	width: 200px;
+	height: 200px;
+}
+.overlay{
+	position: absolute;
+	transition: all .3s ease;
+	opacity: 0;
+	background-color: #eee;
+	border-radius: 10px;
+}
+.container:hover .overlay{
+	opacity: 1;
+}
+.text{
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 21px;
+	
+	
+}
+.overlayLeft{
+	text-shadow: 0px 3px 5px #000;
+	width: 0;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #00b1ba;
+}
+.overlayTop{
+	text-shadow: 0px 3px 5px #000;
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	background: #d31b008f;
+}
+.overlayTop1{
+	text-shadow: 0px 3px 5px #000;
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	background: #007ee594;
+}
+.overlayBottom1{
+	text-shadow: 0px 3px 5px #000;
+	width: 100%;
+	height: 0;
+	bottom: 0;
+	left: 0;
+	background: #75e4fa9c;
+}
+.overlayBottom{
+	text-shadow: 0px 3px 5px #000;
+	width: 100%;
+	height: 0;
+	bottom: 0;
+	left: 0;
+	background: #fece609e;
+}
+.container:hover .overlayTop, .container:hover .overlayBottom, .container:hover .overlayTop1, .container:hover .overlayBottom1{
+	height: 100%;
+}
+@media screen and (max-width: 768px) {
+	.content h1 {
+		font-size: 250%;
+	}
+	.btn {
+		font-size: 110%;
+		padding: 7px 15px;
+	}
+}

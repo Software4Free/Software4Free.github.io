@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: url('https://lh6.ggpht.com/h_qtSg1-X-17-peK28n6n8F0LXUJtlw1uiIC0w1VXthUHTu8qZuOxeFjhfIB6W3uF80f=h900') no-repeat 50% 50%;
+  display: table;
+  background-size: cover; 
+  top: 0;
+}
+#overlay{
+  height:100%;
+  width:100%;
+  background:rgba(0, 0, 0, 1);
+  position:fixed;
+  left:0;
+  top:0;
+ }
+
+.sidebar {
+  position: absolute;
+  display: table;
+  width: 250px;
+  height: 100%; 
+  background: #333;
+  color: #fff;
+  outline: 1px solid #2a2a2a;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar h3 {
+  text-align: center;
+  margin: 0;
+  background: #2a2a2a;
+  padding: 10px;
+  font-size: 24px;
+}
+.sidebar li {
+  border: 1px solid #2a2a2a;
+  transition: all 0.3s;
+}
+.sidebar li:hover {
+  background: #444;
+  border-left: 5px solid #eee;  
+}
+.sidebar a {
+  display: block;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+.contenido {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 30px;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  background: url('https://lh6.ggpht.com/h_qtSg1-X-17-peK28n6n8F0LXUJtlw1uiIC0w1VXthUHTu8qZuOxeFjhfIB6W3uF80f=h900') no-repeat 50% 50%;
+  background-size: cover;
+}
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url('https://lh6.ggpht.com/h_qtSg1-X-17-peK28n6n8F0LXUJtlw1uiIC0w1VXthUHTu8qZuOxeFjhfIB6W3uF80f=h900') no-repeat 50% 50%;
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+  }
+.menu-bar {
+  cursor: pointer;
+}
+.abrir {
+  transform: translateX(250px);
+}
+
+.gallery {
+  width: 810px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #00000026;
+  background-size: cover;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 0px;
+}
+
+.gallery > div > img {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 242px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+h1 {
+  position: relative;
+  padding-top: 10px;
+  font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
+   width: 100%;
+        font-size: 50px;
+        margin: 30px auto;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0px 1px 1px #ddd,
+                     0px 2px 1px #d6d6d6,
+                     0px 3px 1px black,
+                     0px 4px 1px black,
+                     0px 5px 1px black,
+                     0px 6px 1px black,
+                     0px 7px 1px black,
+                     0px 8px 3px black,
+                     0px 9px 5px black,
+                     0px 10px 7px black,
+                     0px 11px 9px black,
+                     0px 12px 11px black,
+                     0px 13px 15px black;
+
+     transition:all .8s ease-in-out;  
+      -o-transition:all .8s ease-in-out;  
+      -moz-transition:all .8s ease-in-out;  
+      -webkit-transition:all .8s ease-in-out;
+    }
+    h2   {
+      position: relative;
+  font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
+   width: 100%;
+        font-size: 30px;
+        margin: 10px auto;
+        text-align: center;
+        color: #fff;
+        text-shadow: 0px 1px 1px #ddd,
+                     0px 2px 1px gray,
+                     0px 3px 1px black,
+                     0px 4px 1px black,
+                     0px 5px 1px black,
+                     0px 6px 1px black,
+                     0px 7px 1px black,
+                     0px 8px 3px black,
+                     0px 9px 5px black,
+                     0px 10px 7px black,
+                     0px 11px 9px black,
+                     0px 12px 11px black,
+                     0px 13px 15px black;
+
+     transition:all .8s ease-in-out;  
+      -o-transition:all .8s ease-in-out;  
+      -moz-transition:all .8s ease-in-out;  
+      -webkit-transition:all .8s ease-in-out;
+    }
+h6 {
+      position: absolute;
+  font-family: 'Arial', sans-serif;
+  color: gray;
+  font-size: 100%;
+  position: absolute;
+  padding-bottom: 20px;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  left: 0;
+  text-shadow: 0px 3px 5px #000;
