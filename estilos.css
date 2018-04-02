@@ -3,9 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One');
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
-@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
-@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Bungee|Bungee+Inline|Carter+One|Ubuntu+Mono');
-@import url('https://fonts.googleapis.com/css?family=Passion+One|Righteous');
+@import url('ionicons.css');
 html, body {
 	margin: 0;
 	padding: 0;
