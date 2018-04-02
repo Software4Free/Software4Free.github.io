@@ -50,7 +50,7 @@ html, body {
 	padding: 30px;
 	transition: all 0.3s;
 	box-sizing: border-box;
-	background: url(https://i.pinimg.com/originals/71/98/18/71981849018f9db22636469d9da26b5b.jpg) no-repeat 50% 50%;
+	background: url('imagenes/MinimalistWallpaper.jpg') no-repeat 50% 50%;
 	background-size: cover;
 }
 .menu-bar {
@@ -108,7 +108,7 @@ ul.socialIcons {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background: url(https://i.pinimg.com/originals/71/98/18/71981849018f9db22636469d9da26b5b.jpg) no-repeat 50% 50%;
+	background: url('imagenes/MinimalistWallpaper.jpg') no-repeat 50% 50%;
 	display: table;
 	top: 0;
 	background-size: cover;
