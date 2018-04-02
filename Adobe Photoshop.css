@@ -50,7 +50,7 @@ html, body {
 	padding: 30px;
 	transition: all 0.3s;
 	box-sizing: border-box;
-	background: url('imagenes\MinimalistSun.jpg') no-repeat 50% 50%;
+	background: url('imagenes/MinimalistSun.jpg') no-repeat 50% 50%;
 	background-size: cover;
 }
 .menu-bar {
@@ -116,7 +116,7 @@ ul.socialIcons {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background: url('imagenes\MinimalistSun.jpg') no-repeat 50% 50%;
+	background: url('imagenes/MinimalistSun.jpg') no-repeat 50% 50%;
 	display: table;
 	top: 0;
 	background-size: cover;
