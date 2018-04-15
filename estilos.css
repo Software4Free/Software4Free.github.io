@@ -1,5 +1,4 @@
 @import url('ionicons.css');
-@import url('https://fonts.googleapis.com/css?family=Oswald');
 html, body {
 	margin: 0;
 	padding: 0;
@@ -153,7 +152,7 @@ html, body {
                      0px 13px 15px black;
     }
 .content h6 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Arial', sans-serif;
 	color: gray;
 	font-size: 100%;
 	position: absolute;
